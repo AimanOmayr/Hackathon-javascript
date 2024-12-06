@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <section>
+        <div class="container-fluid p-4">
+            <div class="row">
+                <div class="col-12 col-md-6 m-auto">
+                    <form id="SignUpForm" class="p-4">
+                        <div class="mb-3">
+                            <label for="FirstName" class="form-label">Name:</label>
+                            <input type="text" class="form-control" id="FirstName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="LastName" class="form-label"> Last Name:</label>
+                            <input type="text" class="form-control" id="LastName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Email1" class="form-label">Email address:</label>
+                            <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Password" class="form-label">Password:</label>
+                            <input type="password" class="form-control" id="Password" required>
+
+
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="signupBtn">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> -->
+       <div>
+        <h2>Signup Form</h2>
+
+        <label for="email">Email<br>
+            <input id="email" type="email">
+        </label>
+        <br>
+        <label for="password">Password<br>
+            <input id="password" type="password">
+        </label><br><br>
+        <button id="signupBtn">Signup</button>
+        <button id="signinBtn">Signin</button>
+
+    </div>
+    
+    <button id="logoutBtn">Logout</button>
+    <button id="verifyBtn">Send verification email</button>
+
+    <button id="googleBtn">Login with Google</button>
+
+
+    <script src="firebase.js" type="module"></script>
+    <script src="app.js" type="module"></script>
+</body>
+</html>
